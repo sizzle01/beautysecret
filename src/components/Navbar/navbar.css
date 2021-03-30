@@ -1,0 +1,50 @@
+.Nav-home {
+  height: 100%;
+}
+.nav-home img {
+  height: 70% !important;
+  width: 80px;
+  margin-bottom: 5px;
+}
+.header {
+  height: 95px !important;
+
+  background-color: white !important;
+  padding: 0 22px 0 0 !important;
+}
+.header .header_navlink {
+  padding: 0;
+}
+.header .header_link {
+  font-weight: 500;
+  color: darkslategray !important;
+}
+.header .header_link:hover {
+  color: var(--main-color) !important;
+}
+.header .header_link_active {
+  font-weight: 500;
+  color: var(--main-color) !important;
+}
+
+.header .header_home {
+  background-color: var(--main-color);
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.header .header_left {
+  margin-right: auto;
+}
+.header .header_right {
+  display: flex !important;
+  align-items: center;
+}
+.header .header_right > a > .MuiSvgIcon-root {
+  font-size: 30px;
+  margin-right: 12px;
+  color: #fff;
+}
