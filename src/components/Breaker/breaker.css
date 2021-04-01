@@ -1,0 +1,21 @@
+.breaker-cont {
+  padding: 30px 10px;
+}
+.breaker-grid {
+  justify-content: center;
+  align-items: center;
+}
+.breaker-head {
+  color: var(--main-color);
+  font-family: "Crimson Text", serif;
+}
+.breaker-desc {
+  text-align: center;
+  padding: 10px;
+}
+.underline {
+  background: var(--main-color);
+  height: 3px;
+  width: 140px;
+  margin-top: 28px !important;
+}

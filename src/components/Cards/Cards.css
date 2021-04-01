@@ -1,0 +1,10 @@
+.service-head {
+  text-align: center;
+  margin-top: 40px !important;
+}
+.card-item {
+  display: none !important;
+}
+.grid-cont {
+  margin: 30px 0 !important;
+}

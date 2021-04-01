@@ -1,0 +1,12 @@
+.slider-cont {
+  height: 70vh;
+}
+.carousel-item {
+}
+
+.carousel-item .d-block {
+  height: 70vh !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
