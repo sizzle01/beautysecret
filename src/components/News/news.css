@@ -1,0 +1,30 @@
+.customCard_image img {
+  height: 250px !important;
+  width: 350px;
+}
+
+.customCard_date {
+  font-weight: 600 !important;
+  margin-bottom: 15px !important;
+}
+
+.customCard_title {
+  color: var(--main-color) !important;
+  font-size: 20px !important;
+  margin-bottom: 15px !important;
+}
+.customCard_text {
+  font-size: 15px !important;
+}
+.image-cont {
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+.card {
+  width: 350px;
+  display: flex !important;
+  margin: 0 auto !important;
+}
+.card-action {
+  margin-bottom: 30px !important;
+}
