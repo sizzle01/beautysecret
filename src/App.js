@@ -12,6 +12,10 @@ import Breaker from "./components/Breaker/Breaker";
 import Contact from "./components/Pages/Contact/Contact";
 import Cards from "./components/Cards/Cards";
 import Button from "./components/Button/Button";
+import Details from "./components/Details/Details";
+import Gallery from "./components/Gallery/Gallery";
+import News from "./components/News/News";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -23,9 +27,11 @@ function App() {
             <Route path="/">
               <Nave />
               <Slider />
-              <Breaker />
               <Cards />
-              <Button />
+              <Details />
+              <Gallery />
+              <News />
+              <Footer />
             </Route>
             <Appointment />
             <About />
