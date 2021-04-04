@@ -17,7 +17,7 @@
 }
 .header .header_link {
   font-weight: 500;
-  color: darkslategray !important;
+  color: #fff !important;
 }
 .header .header_link:hover {
   color: var(--main-color) !important;
@@ -47,4 +47,8 @@
   font-size: 30px;
   margin-right: 12px;
   color: #fff;
+}
+.navbar-collapse {
+  background-color: var(--main-color);
+  width: 100vw !important;
 }

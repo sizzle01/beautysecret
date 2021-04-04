@@ -28,7 +28,7 @@ function Nave(props) {
           </Navbar.Brand>
         </Nav.Link>
         <Navbar.Toggle />
-        <Navbar.Collapse>
+        <Navbar.Collapse className="drop-down">
           <Nav className="header_left">
             <Nav.Link
               as={NavLink}
