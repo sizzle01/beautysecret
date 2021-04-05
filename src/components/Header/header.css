@@ -1,6 +1,6 @@
 .header {
   height: 50px;
-  background: linear-gradient(90deg, #aee284, #1cd33a);
+  background: linear-gradient(90deg, #93a583, #1cd33a);
   font-family: "Poppins", serif;
   text-align: right;
   font-weight: 400;
@@ -16,4 +16,7 @@
   border-right: 1px solid #fff;
 }
 .header-cont {
+}
+.header_right {
+  display: none;
 }

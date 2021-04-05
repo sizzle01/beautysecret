@@ -4,6 +4,7 @@
 }
 :root {
   --main-color: green;
+  --bg-color: rgb(204, 243, 204);
 }
 html {
   font-family: "Merriweather Sans", sans-serif;

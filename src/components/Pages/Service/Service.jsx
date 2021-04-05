@@ -1,9 +1,9 @@
 import React from "react";
-import "./About.css";
+import "./Service.css";
 import Nave from "../../Navbar/Nave";
 import Footer from "../../Footer/Footer";
 
-function About() {
+function Service() {
   return (
     <div>
       <Nave />
@@ -12,4 +12,4 @@ function About() {
   );
 }
 
-export default About;
+export default Service;

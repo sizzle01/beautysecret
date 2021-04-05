@@ -1,0 +1,38 @@
+.footer-cont {
+  margin-top: 60px;
+  color: #fff;
+  width: 100% !important;
+  background: #191f1d !important;
+  display: flex !important;
+}
+.footer-cont2 {
+  display: flex !important;
+}
+.footer-item {
+  margin: 45px auto !important;
+}
+.footer-cont .header_right > a > .MuiSvgIcon-root {
+  font-size: 35px;
+  margin-right: 12px;
+  color: var(--main-color);
+  background: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+.footer-desc {
+  padding: 9px !important;
+  padding-bottom: 15px;
+  font-weight: 300;
+  font-family: "Dosis", sans-serif;
+}
+.footer-line {
+  background-color: green;
+  height: 2px;
+  margin-bottom: 9px;
+}
+.footer-list {
+  font-family: "Dosis", sans-serif;
+}
+.header_right {
+  display: block !important;
+}

@@ -38,9 +38,15 @@ const Footer = () => {
             <Typography className="footer-desc">PAYMENT METHODS</Typography>
             <div className="footer-line"></div>
 
-            <Typography>Visa</Typography>
-            <Typography>Paypal</Typography>
-            <Typography>Mastercard</Typography>
+            <Grid item className="footer-item">
+              <div className="header_right">
+                {Object.keys(Data.payment).map((key) => (
+                  <a href={Data.payment[key].link} target="_blank">
+                    {Data.payment[key].image}
+                  </a>
+                ))}
+              </div>
+            </Grid>
           </Grid>
           <div className="footer-break"></div>
           <Grid container className="footer-cont2">

@@ -17,7 +17,7 @@
 }
 .header .header_link {
   font-weight: 500;
-  color: #fff !important;
+  color: darkslategray !important;
 }
 .header .header_link:hover {
   color: var(--main-color) !important;
@@ -49,6 +49,5 @@
   color: #fff;
 }
 .navbar-collapse {
-  background-color: var(--main-color);
-  width: 100vw !important;
+  background: linear-gradient(90deg, #aee284, #1cd33a);
 }

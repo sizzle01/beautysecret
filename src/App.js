@@ -6,9 +6,8 @@ import Nave from "./components/Navbar/Nave";
 import Header from "./components/Header/Header";
 import Slider from "./components/Carousel/Slider";
 import About from "./components/Pages/About/About";
-import Services from "./components/Pages/Services/Services";
+import Service from "./components/Pages/Service/Service";
 import Appointment from "./components/Pages/Appointment/Appointment";
-import Breaker from "./components/Breaker/Breaker";
 import Contact from "./components/Pages/Contact/Contact";
 import Cards from "./components/Cards/Cards";
 import Button from "./components/Button/Button";
@@ -19,27 +18,31 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <>
+    <Router>
+      <div className="App">
         <Header />
-        <Router>
-          <Switch>
-            <Route path="/">
-              <Nave />
-              <Slider />
-              <Cards />
-              <Details />
-              <Gallery />
-              <News />
-              <Footer />
-            </Route>
-            <Appointment />
+
+        <Switch>
+          <Route exact path="/">
+            <Nave />
+            <Slider />
+            <Cards />
+            <Details />
+            <Gallery />
+            <News />
+            <Footer />
+          </Route>
+          <Route path="/about">
             <About />
-            <Services />
-          </Switch>
-        </Router>
-      </>
-    </div>
+          </Route>
+          <Route path="/services">
+            <Service />
+          </Route>
+          <Appointment />
+          <About />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

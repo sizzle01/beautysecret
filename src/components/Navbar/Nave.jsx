@@ -14,7 +14,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Facebook, Twitter, LinkedIn } from "@material-ui/icons";
-import { NavLink, Link, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import "./navbar.css";
 function Nave(props) {
   const pathName = props?.location?.pathname;
@@ -34,9 +34,7 @@ function Nave(props) {
               as={NavLink}
               to="/"
               className={pathName == "/" ? "header_link_active" : "header_link"}
-            >
-              HOME
-            </Nav.Link>
+            ></Nav.Link>
 
             <Nav.Link
               as={NavLink}
