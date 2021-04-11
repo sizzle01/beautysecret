@@ -21,17 +21,17 @@ const News = () => {
     <>
       <div>
         <Breaker
-          head="NEWS"
+          head="BLOG POSTS"
           paragraph="Latest news from us. we keep you updated on recent trends about skin care and beauty"
         />
       </div>
 
       <Grid Item xs={12}>
-        <Grid container className="image-cont">
+        <Grid container className="news-cont">
           {Data.news.map((item) => (
             <>
-              <Grid Item className="" md={4} sm={6} xs={12}>
-                <Card className="card">
+              <Grid Item md={4} sm={6} xs={12} className="news-card">
+                <Card>
                   <CardActionArea className="card-action">
                     <CardMedia className="customCard_image">
                       <img src={item.image} alt="" />
@@ -40,7 +40,7 @@ const News = () => {
                       <Typography variant={"body2"} className="customCard_date">
                         {item.date}
                       </Typography>
-                      <Typography variant="body2" className="customCard_title">
+                      <Typography variant="h6" className="customCard_title">
                         {item.title}
                       </Typography>
                       <Typography variant="body2" className="customCard_text">

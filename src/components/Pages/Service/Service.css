@@ -1,0 +1,65 @@
+.grid-cont {
+  justify-content: center;
+  align-items: center;
+  margin: 55px auto !important;
+}
+
+.pic {
+  margin: 0 auto !important;
+}
+.grid-cont2 {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto !important;
+}
+.grid-cont2 img {
+  display: flex !important;
+  margin: 0 auto !important;
+}
+
+.top-head {
+  color: var(--main-color);
+}
+.grid-cont img {
+  width: 80%;
+  margin: 40px 0;
+}
+.service-info {
+  width: 85% !important;
+  text-align: center;
+  margin: 30px 0 !important;
+}
+.service-sub {
+  text-align: center;
+}
+.service-info span {
+  color: var(--main-color) !important;
+}
+.service-cat {
+  width: 70% !important;
+  text-align: center;
+  margin: 30px 0 !important;
+}
+.service-cat span {
+  color: var(--main-color) !important;
+}
+.therapy-heading {
+  margin: 30px 20px !important;
+  text-align: center;
+}
+.pedmed {
+  background-color: var(--bg-color);
+}
+.pedmed-desc {
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+.head-pic {
+  text-align: center;
+}
+.facial-desc .service-cat {
+  padding: 15px 0;
+  margin: 0 auto !important;
+}

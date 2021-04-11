@@ -4,8 +4,13 @@
 }
 .card-item {
 }
-.card {
+.service-card {
+  width: 400px !important;
 }
 .grid-cont {
-  margin: 30px 0 !important;
+  margin: 20px 20px !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  width: 90% !important;
+  margin: 0 auto !important;
 }

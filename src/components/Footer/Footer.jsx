@@ -13,29 +13,55 @@ const Footer = () => {
               LOCATION
             </Typography>
             <div className="footer-line"></div>
-            <Typography>Mail:beautysecret@gmail.com</Typography>
-            <Typography>Phone:08167722341</Typography>
-            <Typography>
-              Address: Road 3 house 20B, Ikota villa estate
+            <Typography variant="h6" className="footer-list">
+              No. 424, Oka Akoko Crescent, Off Lagos Street, Garki, Abuja
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Phone:+2348099998140
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              info@beautysecretskincarespa.com
             </Typography>
           </Grid>
 
           <Grid item className="footer-item">
-            <Typography className="footer-desc">PAGES</Typography>
+            <Typography variant="h5" className="footer-desc">
+              PAGES
+            </Typography>
             <div className="footer-line"></div>
-            <Typography className="footer-list">Home</Typography>
-            <Typography className="footer-list">Contact</Typography>
-            <Typography className="footer-list">Services</Typography>
+            <Typography variant="h6" className="footer-list">
+              Home
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Contact
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Services
+            </Typography>
           </Grid>
           <Grid item className="footer-item">
-            <Typography className="footer-desc">TAGS</Typography>
+            <Typography variant="h5" className="footer-desc">
+              TAGS
+            </Typography>
             <div className="footer-line"></div>
-            <Typography className="footer-list">Haircut</Typography>
-            <Typography className="footer-list">Facial</Typography>
-            <Typography className="footer-list">Spa</Typography>
+            <Typography variant="h6" className="footer-list">
+              Manicure
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Pedicure
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Facial
+            </Typography>
+            <Typography variant="h6" className="footer-list">
+              Spa
+            </Typography>
           </Grid>
           <Grid item className="footer-item">
-            <Typography className="footer-desc">PAYMENT METHODS</Typography>
+            <Typography variant="h5" className="footer-desc">
+              PAYMENT METHODS
+            </Typography>
+
             <div className="footer-line"></div>
 
             <Grid item className="footer-item">
@@ -48,10 +74,11 @@ const Footer = () => {
               </div>
             </Grid>
           </Grid>
+
           <div className="footer-break"></div>
           <Grid container className="footer-cont2">
             <Grid item className="footer-item">
-              <Typography className="footer-list">
+              <Typography variant="h6" className="footer-list">
                 Copyright 2021 Beauty secret. All Rights Reserved
               </Typography>
             </Grid>

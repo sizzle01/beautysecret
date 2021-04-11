@@ -25,6 +25,11 @@
   font-weight: 300;
   font-family: "Dosis", sans-serif;
 }
+.footer-break {
+  background-color: #fff;
+  height: 2px;
+  margin-bottom: 9px;
+}
 .footer-line {
   background-color: green;
   height: 2px;
@@ -32,6 +37,7 @@
 }
 .footer-list {
   font-family: "Dosis", sans-serif;
+  padding: 10px;
 }
 .header_right {
   display: block !important;

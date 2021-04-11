@@ -1,3 +1,51 @@
 .text {
   color: black;
 }
+.tile {
+  background: var(--bg-color) !important;
+}
+.tile-text {
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.tile-text2 {
+  border-bottom: 5px solid #fff;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh !important;
+  background-size: cover;
+  background-position: center;
+}
+.head {
+  margin-bottom: 30px !important;
+  text-align: center !important;
+  color: green;
+}
+.heading {
+  margin-bottom: 30px !important;
+  text-align: center;
+  margin: 15px auto !important;
+  color: green;
+}
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 40px 0;
+  margin: 0 auto !important;
+}
+
+.history-paragraph {
+  line-height: 3px;
+  margin: 15px !important;
+}

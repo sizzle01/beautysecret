@@ -14,7 +14,7 @@ button {
 }
 
 .app {
-  width: 400px;
+  width: 50%;
   margin: 0 auto;
   height: 100vh;
 }
@@ -47,7 +47,7 @@ textarea {
 
 .form > input:focus,
 textarea:focus {
-  border: 1px solid rgb(0, 0, 196);
+  border: 1px solid var(--main-color);
 }
 
 .form > textarea {
@@ -65,7 +65,7 @@ textarea:focus {
 .form > button {
   padding: 20px;
   border: none;
-  background-color: rgb(2, 2, 110);
+  background-color: var(--main-color);
   font-weight: 500;
   font-size: 20px;
   border-radius: 3px;
@@ -76,5 +76,5 @@ textarea:focus {
 }
 
 .form > button:hover {
-  background-color: rgb(0, 0, 196);
+  background-color: var(--main-color);
 }

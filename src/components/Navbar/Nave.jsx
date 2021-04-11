@@ -14,7 +14,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Facebook, Twitter, LinkedIn } from "@material-ui/icons";
-import { NavLink, withRouter } from "react-router-dom";
+import { Link, NavLink, withRouter } from "react-router-dom";
 import "./navbar.css";
 function Nave(props) {
   const pathName = props?.location?.pathname;
@@ -58,24 +58,21 @@ function Nave(props) {
 
             <Nav.Link
               as={NavLink}
-              to="/appointment"
-              className={
-                pathName == "/appointment"
-                  ? "header_link_active"
-                  : "header_link"
-              }
-            >
-              APPOINTMENT
-            </Nav.Link>
-
-            <Nav.Link
-              as={NavLink}
               to="/contact"
               className={
                 pathName == "/contact" ? "header_link_active" : "header_link"
               }
             >
               CONTACT
+            </Nav.Link>
+            <Nav.Link
+              as={NavLink}
+              to="/"
+              className={
+                pathName == "/contact" ? "header_link_active" : "header_link"
+              }
+            >
+              BLOG
             </Nav.Link>
           </Nav>
 

@@ -6,8 +6,7 @@ import Footer from "../../Footer/Footer";
 function Appointment() {
   return (
     <div>
-      <Nave />
-      <Footer />
+      
     </div>
   );
 }

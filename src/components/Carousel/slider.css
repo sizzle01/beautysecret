@@ -10,3 +10,20 @@
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+.carousel-indicators {
+  display: none !important;
+}
+.c-caption {
+  margin-bottom: 20px !important;
+}
+.c-caption a {
+  text-decoration: none;
+}
+.c-head {
+  color: var(--main-color);
+  padding: 12px;
+  font-weight: 600 !important;
+}
+.c-text {
+  padding-bottom: 20px;
+}
