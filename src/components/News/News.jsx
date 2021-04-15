@@ -7,11 +7,6 @@ import {
   CardMedia,
   CardContent,
   Typography,
-  Grow,
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
 } from "@material-ui/core";
 import "./news.css";
 import Data from "../../Utils/data";
