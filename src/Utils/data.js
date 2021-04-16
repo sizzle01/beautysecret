@@ -45,26 +45,19 @@ export default {
     { image: <img src="/images/payment/visa1.png" alt="payment method" /> },
   ],
 
-  pay: {
-    Facebook: {
-      link: "https://www.facebook.com",
-      icon: <FacebookIcon />,
-    },
-
-    Twitter: {
-      link: "https://twitter.com/ememblow",
-      icon: <FacebookIcon />,
-    },
-  },
   socials: {
+    Instagram: {
+      link: "https://www.instagram.com/beautysecretskincare/",
+      text: "",
+      icon: <InstagramIcon />,
+    },
     Facebook: {
       link: "https://web.facebook.com/beautysecretskincarespa/",
       text: "",
       icon: <FacebookIcon />,
     },
-
     Twitter: {
-      link: "https://twitter.com/ememblow",
+      link: "https://twitter.com/beautysecretabj",
       text: "",
       icon: <TwitterIcon />,
     },
@@ -73,13 +66,9 @@ export default {
       text: "",
       icon: <YouTubeIcon />,
     },
-    Instagram: {
-      link: "https://www.instagram.com/beautysecretskincare/",
-      text: "",
-      icon: <InstagramIcon />,
-    },
-    Instagram: {
-      link: "https://www.instagram.com/beautysecretskincare/",
+
+    Shop: {
+      link: "",
       text: "",
       icon: <AddShoppingCartIcon />,
     },

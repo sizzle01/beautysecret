@@ -55,7 +55,15 @@ function Nave(props) {
             >
               SERVICES
             </Nav.Link>
-
+            <Nav.Link
+              as={NavLink}
+              to="/post"
+              className={
+                pathName == "/contact" ? "header_link_active" : "header_link"
+              }
+            >
+              BLOG
+            </Nav.Link>
             <Nav.Link
               as={NavLink}
               to="/contact"
@@ -64,15 +72,6 @@ function Nave(props) {
               }
             >
               CONTACT
-            </Nav.Link>
-            <Nav.Link
-              as={NavLink}
-              to="/"
-              className={
-                pathName == "/contact" ? "header_link_active" : "header_link"
-              }
-            >
-              BLOG
             </Nav.Link>
           </Nav>
 

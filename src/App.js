@@ -10,13 +10,14 @@ import Service from "./components/Pages/Service/Service";
 
 import Contact from "./components/Pages/Contact/Contact";
 import Cards from "./components/Cards/Cards";
-import Button from "./components/Button/Button";
 import Details from "./components/Details/Details";
 import Gallery from "./components/Gallery/Gallery";
-import News from "./components/News/News";
+
 import Footer from "./components/Footer/Footer";
 import Form from "./components/Form/Form";
 import Breaker from "./components/Breaker/Breaker";
+import Post from "./components/Pages/Blog/Post";
+import SinglePost from "./components/Pages/Blog/SinglePost";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
             <Cards />
             <Details />
             <Gallery />
-            <News />
+            <Post />
             <Breaker
               head="Get In Touch"
               paragraph="For all enquiries, please contact us using the form below."
@@ -43,6 +44,13 @@ function App() {
           </Route>
           <Route path="/services">
             <Service />
+          </Route>
+
+          <Route path="/post/:slug">
+            <SinglePost />
+          </Route>
+          <Route path="/post">
+            <Post />
           </Route>
           <Route path="/contact">
             <Contact />

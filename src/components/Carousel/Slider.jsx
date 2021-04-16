@@ -23,7 +23,7 @@ const Slider = () => {
             </Typography>
 
             <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
-              <Button text="BOOK NOW" />
+              <Button text="VISIT US" />
             </a>
           </Carousel.Caption>
         </Carousel.Item>
@@ -41,7 +41,7 @@ const Slider = () => {
             </Typography>
 
             <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
-              <Button text="BOOK NOW" />
+              <Button text="" />
             </a>
           </Carousel.Caption>
         </Carousel.Item>
@@ -57,7 +57,7 @@ const Slider = () => {
               Serene atmosphere that massages your delight
             </Typography>
             <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
-              <Button text="BOOK NOW" />
+              <Button text="BOOK A SESSION" />
             </a>
           </Carousel.Caption>
         </Carousel.Item>

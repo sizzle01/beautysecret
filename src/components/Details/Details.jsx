@@ -37,7 +37,7 @@ const Details = () => {
         <Grid container className="tile">
           <Grid item xs={12} md={6} className="tile-text">
             <Typography variant="h3" className="">
-              OUR MISSION
+              OUR VISION
             </Typography>
             <Typography variant="h6"></Typography>
             <Typography variant="h5" className="statement">
