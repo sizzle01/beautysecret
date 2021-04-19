@@ -76,43 +76,53 @@ export default {
 
   projects: [
     {
-      tag: "MASSAGE",
-      image: "/images/massage/massage1.jpg",
-    },
-    {
-      tag: "MAKEUP",
-      image: "/images/makeup/makeup2.jpg",
-    },
-    {
-      tag: "PEDICURE",
-      image: "/images/manicure/manicure2.jpg",
-    },
-    {
-      tag: "MASSAGE",
-      image: "/images/massage/massage2.jpg",
-    },
-
-    {
-      tag: "MAKEUP",
-      image: "/images/makeup/makeup1.jpg",
-    },
-
-    {
-      tag: "SPA",
-      image: "/images/spa/spa1.jpg",
-    },
-    {
-      tag: "SPA",
+      tag: "MEDSPA",
       image: "/images/spa/spa2.jpg",
-    },
-    {
-      tag: "PEDICURE",
-      image: "/images/manicure/manicure1.jpg",
     },
     {
       tag: "FACIALS",
       image: "",
     },
+    {
+      tag: "CHEMICAL PEELS",
+      image: "",
+    },
+    {
+      tag: "MORROCAN HAMMAM",
+      image: "",
+    },
+    {
+      tag: "MASSAGE",
+      image: "/images/massage/massage1.jpg",
+    },
+    {
+      tag: "WAXING",
+      image: "/images/spa/spa1.jpg",
+    },
+
+    {
+      tag: "HAIR TREATMENT",
+      image: "/",
+    },
+    {
+      tag: "HAIR GALLERY",
+      image: "/images/manicure/manicure2.jpg",
+    },
+    {
+      tag: "COSMETICS",
+      image: "/images/massage/massage2.jpg",
+    },
+
+    {
+      tag: "INTERIOR",
+      image: "/images/makeup/makeup1.jpg",
+    },
+
+    {
+      tag: "PEDICURE",
+      image: "/images/manicure/manicure1.jpg",
+    },
+
     {
       tag: "MASSAGE",
       image: "",
