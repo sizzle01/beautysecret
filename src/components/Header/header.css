@@ -7,6 +7,7 @@
   padding-bottom: 10px;
   display: flex;
 }
+
 .header-item {
   font-size: 30px;
   color: #fff;
@@ -22,4 +23,5 @@
 .shop-icon {
   margin-left: 20px !important;
   margin-top: 9px !important;
+  width: 80px !important;
 }

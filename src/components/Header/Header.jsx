@@ -22,12 +22,14 @@ const Header = () => {
         >
           <Grid item>
             <Typography variant="h6" className="header-item">
-              <a href="mailto:Beautysecret@gmail.com">Beautysecret@gmail.com</a>
+              <a href="mailto:Beautysecret@gmail.com">
+                info@beautysecretskincarespa.com
+              </a>
             </Typography>
           </Grid>
           <Grid item>
             <Typography variant="h6" className="header-item">
-              <a href="tel: 0809 999 8140">Call: 0809 999 8140</a>
+              <a href="tel: 0809 999 8140">Call: +234 809 999 8140</a>
             </Typography>
           </Grid>
           <Grid item className="header-item">
@@ -35,7 +37,7 @@ const Header = () => {
               href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
               target="_blank"
             >
-              <Button text="BOOK A SECTION" />
+              <Button text="BOOK A SESSION" />
             </a>
           </Grid>
         </Grid>

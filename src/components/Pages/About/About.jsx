@@ -50,16 +50,14 @@ function About() {
         </Grid>
 
         <Grid item xs={12} md={6} className="tile-text tile-text2">
-          <Typography variant="h3">
-            About Beauty Secrets Skin Care & Spa
-          </Typography>
+          <Typography variant="h3">About Beauty Secrets Medspa</Typography>
           <Typography variant="h6">Beauty is a fresh feeling</Typography>
           <Typography>
-            Beauty Secrets Skin care and Spa offers an ultimate luxurious
-            relaxation, restorative parley and reinvigorating experience, a
-            different world away from the surrounding tumult, obsessed with
-            observing the strictest sterilization and hygiene procedures
-            according to global best practices.
+            Beauty Secrets Medspa offers an ultimate luxurious relaxation,
+            restorative parley and reinvigorating experience, a different world
+            away from the surrounding tumult, obsessed with observing the
+            strictest sterilization and hygiene procedures according to global
+            best practices.
           </Typography>
         </Grid>
       </Grid>

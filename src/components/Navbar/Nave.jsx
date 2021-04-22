@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from "../../asset/images/logo.jpeg";
+import Logo from "../../asset/images/logo.png";
 import Data from "../../Utils/data";
 import {
   Button,
@@ -55,6 +55,24 @@ function Nave(props) {
             >
               SERVICES
             </Nav.Link>
+            {/*<Nav.Link
+              as={NavLink}
+              to="/post"
+              className={
+                pathName == "/contact" ? "header_link_active" : "header_link"
+              }
+            >
+              GALLERY
+            </Nav.Link>*/}
+            {/*<Nav.Link
+              as={NavLink}
+              to="/gallery"
+              className={
+                pathName == "/contact" ? "header_link_active" : "header_link"
+              }
+            >
+              PRICES
+            </Nav.Link>*/}
             <Nav.Link
               as={NavLink}
               to="/post"
@@ -73,6 +91,15 @@ function Nave(props) {
             >
               CONTACT
             </Nav.Link>
+            {/*<Nav.Link
+              as={NavLink}
+              to="/contact"
+              className={
+                pathName == "/contact" ? "header_link_active" : "header_link"
+              }
+            >
+              SHOP
+            </Nav.Link>*/}
           </Nav>
 
           <div className="header_right">

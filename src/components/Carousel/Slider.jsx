@@ -2,9 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import "./slider.css";
-import Slider1 from "../../asset/images/slider1.jpg";
+import Slider1 from "../../asset/images/slider1.jpeg";
 import Slider2 from "../../asset/images/slider2.jpg";
-import Slider3 from "../../asset/images/slider3.jpeg";
+import Slider3 from "../../asset/images/slider3.jpg";
 import Button from "../Button/Button";
 import Typography from "@material-ui/core/Typography";
 
@@ -41,7 +41,7 @@ const Slider = () => {
             </Typography>
 
             <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
-              <Button text="" />
+              <Button text="BOOK A SESSION" />
             </a>
           </Carousel.Caption>
         </Carousel.Item>

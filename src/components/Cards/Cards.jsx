@@ -8,12 +8,13 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import "./Cards.css";
 
-import Facial1 from "../../asset/images/facials/facial1.jpg";
-import Therapy1 from "../../asset/images/therapy/therapy1.jpg";
+import Facial1 from "../../asset/images/facials/facial1.PNG";
+import Therapy1 from "../../asset/images/therapy/massage1.jpeg";
+import Medspa1 from "../../asset/images/Medspa/medspa1.PNG";
 import Pedicure1 from "../../asset/images/pedicure/pedicure1.jpg";
 import { CardMedia } from "@material-ui/core";
 import Breaker from "../Breaker/Breaker";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -21,13 +22,38 @@ const Cards = () => {
       <div>
         <Breaker
           head="Our services"
-          paragraph="Beauty Secrets Skin Care and Spa is a name synonymous with efficiency in service delivery.
+          paragraph="Beauty Secrets Medspa is a name synonymous with efficiency in service delivery.
          And we take pride in the quality of highly skilled professionals that are committed to giving
           you the best."
         />
       </div>
       <div>
         <Grid container className="grid-cont" spacing={4}>
+          <Grid item xs={12} sm={6} md={4} className="service-card">
+            <Card>
+              <CardContent>
+                <CardMedia>
+                  <img
+                    className="d-block w-100"
+                    src={Medspa1}
+                    alt="Second slide"
+                  />
+                </CardMedia>
+                <Typography
+                  className="service-head"
+                  variant="h5"
+                  component="h2"
+                >
+                  MEDSPA
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Link to="/services">
+                  <Button size="small">See More</Button>
+                </Link>
+              </CardActions>
+            </Card>
+          </Grid>
           <Grid item xs={12} sm={6} md={4} className="service-card">
             <Card>
               <CardContent>
@@ -47,13 +73,20 @@ const Cards = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href="/services">
+                <Link to="/services">
                   <Button size="small">See More</Button>
-                </a>
+                </Link>
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={12} sm={6} md={4} className="service-card">
+
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            className="service-card service-card1"
+          >
             <Card>
               <CardContent>
                 <CardMedia>
@@ -72,9 +105,9 @@ const Cards = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href="/services">
+                <Link to="/services">
                   <Button size="small">See More</Button>
-                </a>
+                </Link>
               </CardActions>
             </Card>
           </Grid>
@@ -97,9 +130,9 @@ const Cards = () => {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href="/services">
+                <Link to="/services">
                   <Button size="small">See More</Button>
-                </a>
+                </Link>
               </CardActions>
             </Card>
           </Grid>

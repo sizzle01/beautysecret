@@ -1,14 +1,14 @@
-.Nav-home {
+.nav-home {
   height: 100%;
 }
 .nav-home img {
   height: 70% !important;
   width: 80px;
   margin-bottom: 5px;
+  margin-top: 20px;
 }
 .header {
   height: 95px;
-
   background-color: white !important;
   padding: 0 22px 0 0 !important;
 }

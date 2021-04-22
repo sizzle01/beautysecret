@@ -12,5 +12,9 @@
   flex-direction: row !important;
   flex-wrap: wrap;
   width: 90% !important;
+  justify-content: left;
   margin: 0 auto !important;
+}
+.MuiPaper-root > .service-card1 {
+  height: 300px !important;
 }

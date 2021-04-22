@@ -2,24 +2,41 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Mission from "../../asset/images/mission.jpg";
-import vision from "../../asset/images/vision.jpg";
-import Philosophy from "../../asset/images/philosophy.jpg";
+import Mission2 from "../../asset/images/mission2.jpg";
+import vision from "../../asset/images/roomsauna.jpg";
+import vision2 from "../../asset/images/vision2.jpg";
+import Philosophy from "../../asset/images/product3.jpg";
+import Philosophy2 from "../../asset/images/philosophy2.jpg";
 import Breaker from "../Breaker/Breaker";
 import "./Details.css";
 
 const Details = () => {
+  {
+    /*
+  function setOldImage() {
+    document.getElementById("flip").src = { Mission };
+  }
+  function setNewImage() {
+    document.getElementById("flip").src = { Mission2 };
+  } */
+  }
   return (
     <>
       <div>
         <Breaker
-          head="Experience the Best care "
-          paragraph="Come to us and get the best. we provide international standard skin care and beauty services. "
+          head="Experience the best care"
+          paragraph="We provide international standard skin care and beauty services."
         />
       </div>
       <div>
         <Grid container className="tile">
           <Grid item xs={12} md={6}>
-            <img className="d-block w-100" src={Mission} alt="Second slide" />
+            <img
+              className="d-block w-100"
+              src={Mission}
+              alt="Second slide"
+              id="flip"
+            />
           </Grid>
 
           <Grid item xs={12} md={6} className="tile-text tile-text2">

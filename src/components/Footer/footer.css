@@ -41,4 +41,8 @@
 }
 .header_right {
   display: block !important;
+  display: flex !important;
+}
+.header_right a {
+  margin-right: 7px;
 }

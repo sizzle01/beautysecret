@@ -18,7 +18,9 @@ import Form from "./components/Form/Form";
 import Breaker from "./components/Breaker/Breaker";
 import Post from "./components/Pages/Blog/Post";
 import SinglePost from "./components/Pages/Blog/SinglePost";
-
+import BlogPage from "./components/Pages/Blog/BlogPage";
+import Team from "./components/Slider/Slider";
+import ServiceCard from "./components/serviceCard/serviceCard";
 function App() {
   return (
     <Router>
@@ -31,6 +33,7 @@ function App() {
             <Cards />
             <Details />
             <Gallery />
+            <Team />
             <Post />
             <Breaker
               head="Get In Touch"
@@ -45,12 +48,12 @@ function App() {
           <Route path="/services">
             <Service />
           </Route>
-
           <Route path="/post/:slug">
             <SinglePost />
           </Route>
           <Route path="/post">
-            <Post />
+            <Nave />
+            <BlogPage />
           </Route>
           <Route path="/contact">
             <Contact />

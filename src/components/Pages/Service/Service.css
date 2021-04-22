@@ -1,10 +1,23 @@
+.vitamin-cont {
+  display: flex !important;
+
+  margin: 20px auto !important;
+}
+.vitamin-body {
+  width: 20% !important;
+}
+
 .grid-cont {
   justify-content: center;
   align-items: center;
   margin: 55px auto !important;
 }
+.MiuGrid-root .pic img {
+  /*margin: 0 auto !important;
+  margin-top: 20px !important;*/
+}
 
-.pic {
+.service-pic {
   margin: 0 auto !important;
 }
 .grid-cont2 {
@@ -26,10 +39,14 @@
   width: 80%;
   margin: 40px 0;
 }
+.grid-cont .service-heading {
+  margin: 20px auto !important;
+}
 .service-info {
   width: 85% !important;
   text-align: center;
   margin: 30px 0 !important;
+  margin: 0 auto !important;
 }
 .service-sub {
   text-align: center;
@@ -42,12 +59,17 @@
   text-align: center;
   margin: 30px 0 !important;
 }
+.service-heading {
+  text-align: center !important;
+  margin: 0 auto !important;
+  margin: 20px !important;
+}
 .service-cat span {
   color: var(--main-color) !important;
 }
 .therapy-heading {
-  margin: 30px 20px !important;
   text-align: center;
+  margin: 20px auto !important;
 }
 .pedmed {
   background-color: var(--bg-color);
@@ -58,8 +80,98 @@
 }
 .head-pic {
   text-align: center;
+  margin: 30px 0 !important;
 }
 .facial-desc .service-cat {
   padding: 15px 0;
   margin: 0 auto !important;
+}
+.head {
+  font-weight: 700;
+  text-shadow: 2px 2px rgb(184, 183, 183);
+}
+
+.card-holder {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: rgb(236, 248, 242);
+}
+p {
+  font-size: 20px;
+}
+#cards1,
+#cards2,
+#cards3,
+#cards4 {
+  width: 47rem;
+  background-color: £fff;
+  color: black;
+}
+
+.card-img {
+  height: 18rem;
+  object-fit: cover;
+}
+.card-cont {
+  padding: 1rem;
+}
+h1 {
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 0.8em;
+  margin-bottom: 1rem;
+}
+.read-more {
+  font-size: 12px;
+}
+
+.read-more--open {
+  display: block;
+  opacity: 1;
+  height: 7rem;
+}
+.read-more-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 0.6rem 1.5rem;
+  font-size: 1em;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.read-more-btn:hover {
+  background-color: #fff;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  transform: translate(6px);
+  color: var(--main-color);
+}
+.sub-head {
+  color: var(--main-color);
+}
+
+.vitamin-cont {
+  flex-wrap: wrap;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  text-align: center;
+  font-size: 15px !important;
+  margin: 30px 0 !important;
+}
+.vitamin-cont img {
+  width: 80%;
+  height: 30%;
+  margin: 20px 0;
+}
+
+.top-text {
+  font-size: 20px;
 }

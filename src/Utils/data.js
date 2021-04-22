@@ -93,11 +93,11 @@ export default {
     },
     {
       tag: "MASSAGE",
-      image: "/images/massage/massage1.jpg",
+      image: "",
     },
     {
       tag: "WAXING",
-      image: "/images/spa/spa1.jpg",
+      image: "",
     },
 
     {
@@ -115,21 +115,17 @@ export default {
 
     {
       tag: "INTERIOR",
-      image: "/images/makeup/makeup1.jpg",
+      image: "",
     },
 
     {
       tag: "PEDICURE",
-      image: "/images/manicure/manicure1.jpg",
+      image: "/images/manicure/pedicure1.jpg",
     },
 
     {
       tag: "MASSAGE",
-      image: "",
-    },
-    {
-      tag: "MAKEUP",
-      image: "",
+      image: "/images/massage/massage1.jpg",
     },
   ],
 };
