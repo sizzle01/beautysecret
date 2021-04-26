@@ -20,18 +20,21 @@ import Post from "./components/Pages/Blog/Post";
 import SinglePost from "./components/Pages/Blog/SinglePost";
 import BlogPage from "./components/Pages/Blog/BlogPage";
 import Team from "./components/Slider/Slider";
+import Player from "./components/player/Player";
 import ServiceCard from "./components/serviceCard/serviceCard";
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
+
+        <Nave />
+
         <Switch>
           <Route exact path="/">
-            <Nave />
             <Slider />
             <Cards />
-            <Details />
+            <Player />
             <Gallery />
             <Team />
             <Post />
@@ -52,7 +55,6 @@ function App() {
             <SinglePost />
           </Route>
           <Route path="/post">
-            <Nave />
             <BlogPage />
           </Route>
           <Route path="/contact">

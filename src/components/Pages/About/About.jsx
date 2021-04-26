@@ -10,7 +10,6 @@ import Banner1 from "../../../asset/images/aboutbanner.jpg";
 function About() {
   return (
     <div>
-      <Nave />
       <div className="banner" style={{ backgroundImage: `url(${Banner1})` }}>
         <Typography variant="h2" className="head">
           About Us

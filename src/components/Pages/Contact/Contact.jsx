@@ -7,8 +7,6 @@ import Form from "../../Form/Form";
 function Contact() {
   return (
     <div>
-      <Nave />
-
       <Form />
       <Footer />
     </div>

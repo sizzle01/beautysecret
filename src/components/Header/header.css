@@ -1,19 +1,24 @@
 .header1 {
-  background: linear-gradient(90deg, #93a583, #1cd33a) !important;
   font-family: "Poppins", serif;
   text-align: right;
   font-weight: 400;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 10px;
+  border-bottom: 1px solid var(--main-color);
   display: flex;
+  padding-bottom: 5px;
 }
 
 .header-item {
   font-size: 30px;
-  color: #fff;
+  color: rgb(172, 172, 172);
   padding-right: 10px;
-  margin-top: 20px !important;
+  margin-top: 10px !important;
   border-right: 1px solid #fff;
+}
+.header-item a {
+  color: rgb(99, 99, 99);
+}
+.header-item a:hover {
+  color: var(--main-color);
 }
 .header-cont {
 }
@@ -22,6 +27,8 @@
 }
 .shop-icon {
   margin-left: 20px !important;
-  margin-top: 9px !important;
-  width: 80px !important;
+  margin-top: 15px !important;
+  width: 50px !important;
+}
+.custom_btn {
 }

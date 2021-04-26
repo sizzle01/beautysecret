@@ -1,5 +1,6 @@
 .slider-cont {
   height: 70vh;
+  margin: 0 !important;
 }
 .carousel-item {
 }
@@ -20,10 +21,10 @@
   text-decoration: none;
 }
 .c-head {
-  color: var(--main-color);
+  color: rgb(114, 116, 113);
   padding: 12px;
   font-weight: 600 !important;
-  text-shadow: 2px 2px #fff;
+  text-shadow: 1px 1px #fff;
 }
 .c-text {
   padding-bottom: 20px;

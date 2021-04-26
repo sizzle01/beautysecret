@@ -26,7 +26,6 @@ function Service() {
 
   return (
     <div>
-      <Nave />
       <div className="banner" style={{ backgroundImage: `url(${Banner1})` }}>
         <Typography variant="h2" className="head">
           Our Services

@@ -12,6 +12,7 @@ import Facial1 from "../../asset/images/facials/facial1.PNG";
 import Therapy1 from "../../asset/images/therapy/massage1.jpeg";
 import Medspa1 from "../../asset/images/Medspa/medspa1.PNG";
 import Pedicure1 from "../../asset/images/pedicure/pedicure1.jpg";
+import Cosmetics from "../../asset/images/cosmetics/cosmetics.jpg";
 import { CardMedia } from "@material-ui/core";
 import Breaker from "../Breaker/Breaker";
 import { Link } from "react-router-dom";
@@ -127,6 +128,31 @@ const Cards = () => {
                   component="h2"
                 >
                   MANICURE & PEDICURE
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Link to="/services">
+                  <Button size="small">See More</Button>
+                </Link>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} className="service-card">
+            <Card>
+              <CardContent>
+                <CardMedia>
+                  <img
+                    className="d-block w-100"
+                    src={Cosmetics}
+                    alt="Second slide"
+                  />
+                </CardMedia>
+                <Typography
+                  className="service-head"
+                  variant="h5"
+                  component="h2"
+                >
+                  COSMETICS
                 </Typography>
               </CardContent>
               <CardActions>

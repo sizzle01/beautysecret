@@ -104,10 +104,7 @@ export default {
       tag: "HAIR TREATMENT",
       image: "/",
     },
-    {
-      tag: "HAIR GALLERY",
-      image: "/images/manicure/manicure2.jpg",
-    },
+
     {
       tag: "COSMETICS",
       image: "/images/massage/massage2.jpg",

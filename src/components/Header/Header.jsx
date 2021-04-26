@@ -3,6 +3,8 @@ import Button from "../Button/Button";
 import React from "react";
 import "./header.css";
 import Shop from "./shop.png";
+import PhoneInTalkIcon from "@material-ui/icons/PhoneInTalk";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 const Header = () => {
   return (
     <>
@@ -22,6 +24,7 @@ const Header = () => {
         >
           <Grid item>
             <Typography variant="h6" className="header-item">
+              <MailOutlineIcon />{" "}
               <a href="mailto:Beautysecret@gmail.com">
                 info@beautysecretskincarespa.com
               </a>
@@ -29,7 +32,8 @@ const Header = () => {
           </Grid>
           <Grid item>
             <Typography variant="h6" className="header-item">
-              <a href="tel: 0809 999 8140">Call: +234 809 999 8140</a>
+              <PhoneInTalkIcon />{" "}
+              <a href="tel: 0809 999 8140">+234 809 999 8140</a>
             </Typography>
           </Grid>
           <Grid item className="header-item">

@@ -19,43 +19,42 @@ import "./navbar.css";
 function Nave(props) {
   const pathName = props?.location?.pathname;
   return (
-    <div>
-      <Navbar expand="lg" sticky="top" className="header">
-        {/*Logo Link*/}
-        <Nav.Link as={NavLink} to="/" className="">
-          <Navbar.Brand className="nav-home">
-            <img src={Logo} alt="" className="nav-home" />
-          </Navbar.Brand>
-        </Nav.Link>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="drop-down">
-          <Nav className="header_left">
-            <Nav.Link
-              as={NavLink}
-              to="/"
-              className={pathName == "/" ? "header_link_active" : "header_link"}
-            ></Nav.Link>
+    <Navbar expand="lg" sticky="top" className="header">
+      {/*Logo Link*/}
+      <Nav.Link as={NavLink} to="/" className="">
+        <Navbar.Brand className="nav-home">
+          <img src={Logo} alt="" className="nav-home" />
+        </Navbar.Brand>
+      </Nav.Link>
+      <Navbar.Toggle />
+      <Navbar.Collapse className="drop-down">
+        <Nav className="header_left">
+          <Nav.Link
+            as={NavLink}
+            to="/"
+            className={pathName == "/" ? "header_link_active" : "header_link"}
+          ></Nav.Link>
 
-            <Nav.Link
-              as={NavLink}
-              to="/about"
-              className={
-                pathName == "/about" ? "header_link_active" : "header_link"
-              }
-            >
-              ABOUT
-            </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to="/about"
+            className={
+              pathName == "/about" ? "header_link_active" : "header_link"
+            }
+          >
+            ABOUT
+          </Nav.Link>
 
-            <Nav.Link
-              as={NavLink}
-              to="/services"
-              className={
-                pathName == "/services" ? "header_link_active" : "header_link"
-              }
-            >
-              SERVICES
-            </Nav.Link>
-            {/*<Nav.Link
+          <Nav.Link
+            as={NavLink}
+            to="/services"
+            className={
+              pathName == "/services" ? "header_link_active" : "header_link"
+            }
+          >
+            SERVICES
+          </Nav.Link>
+          {/*<Nav.Link
               as={NavLink}
               to="/post"
               className={
@@ -64,7 +63,7 @@ function Nave(props) {
             >
               GALLERY
             </Nav.Link>*/}
-            {/*<Nav.Link
+          {/*<Nav.Link
               as={NavLink}
               to="/gallery"
               className={
@@ -73,25 +72,25 @@ function Nave(props) {
             >
               PRICES
             </Nav.Link>*/}
-            <Nav.Link
-              as={NavLink}
-              to="/post"
-              className={
-                pathName == "/contact" ? "header_link_active" : "header_link"
-              }
-            >
-              BLOG
-            </Nav.Link>
-            <Nav.Link
-              as={NavLink}
-              to="/contact"
-              className={
-                pathName == "/contact" ? "header_link_active" : "header_link"
-              }
-            >
-              CONTACT
-            </Nav.Link>
-            {/*<Nav.Link
+          <Nav.Link
+            as={NavLink}
+            to="/post"
+            className={
+              pathName == "/contact" ? "header_link_active" : "header_link"
+            }
+          >
+            BLOG
+          </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to="/contact"
+            className={
+              pathName == "/contact" ? "header_link_active" : "header_link"
+            }
+          >
+            CONTACT
+          </Nav.Link>
+          {/*<Nav.Link
               as={NavLink}
               to="/contact"
               className={
@@ -100,18 +99,17 @@ function Nave(props) {
             >
               SHOP
             </Nav.Link>*/}
-          </Nav>
+        </Nav>
 
-          <div className="header_right">
-            {Object.keys(Data.socials).map((key) => (
-              <a href={Data.socials[key].link} target="_blank">
-                {Data.socials[key].icon}
-              </a>
-            ))}
-          </div>
-        </Navbar.Collapse>
-      </Navbar>
-    </div>
+        <div className="header_right">
+          {Object.keys(Data.socials).map((key) => (
+            <a href={Data.socials[key].link} target="_blank">
+              {Data.socials[key].icon}
+            </a>
+          ))}
+        </div>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
