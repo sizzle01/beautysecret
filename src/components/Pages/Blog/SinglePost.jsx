@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../../../Client";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-import Nave from "../../Navbar/Nave";
+
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
   return builder.image(source);
@@ -20,7 +20,7 @@ const SinglePost = () => {
       slug,
       mainImage{
         asset->{
-          _id,
+          _id, 
           url
         }
       },
@@ -33,14 +33,11 @@ const SinglePost = () => {
       .catch(console.error);
   }, [slug]);
 
-  {
-    if (!singlePost) return <div>Loading...</div>;
-  }
+  if (!singlePost) return <div>Loading...</div>;
   return (
     <div>
-      <Nave />
       <main className="bg-gray-200 min-h-screen p-12">
-        <article className="container shadow-lg mx-auto bg-green-100 rounded-lg">
+        <article className="container shadow-lg mx-auto bg-green-60 rounded-lg">
           <header className="relative">
             <div className="absolute h-full w-full flex items-center justify-center p-8">
               <div className="bg-white bg-opacity-75 rounded p-12">
