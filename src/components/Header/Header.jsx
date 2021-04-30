@@ -10,7 +10,9 @@ const Header = () => {
     <>
       <div className="header1">
         <Grid item justify="flex-start" className="shop-icon">
-          <img src={Shop} alt="shopicon" />
+          <a href="shop.beautysecretskincarespa.com/">
+            <img src={Shop} alt="shopicon" />
+          </a>
         </Grid>
         <Grid
           container
@@ -24,7 +26,7 @@ const Header = () => {
         >
           <Grid item>
             <Typography variant="h6" className="header-item">
-              <MailOutlineIcon />{" "}
+              <MailOutlineIcon />
               <a href="mailto:Beautysecret@gmail.com">
                 info@beautysecretskincarespa.com
               </a>
@@ -32,7 +34,7 @@ const Header = () => {
           </Grid>
           <Grid item>
             <Typography variant="h6" className="header-item">
-              <PhoneInTalkIcon />{" "}
+              <PhoneInTalkIcon />
               <a href="tel: 0809 999 8140">+234 809 999 8140</a>
             </Typography>
           </Grid>
