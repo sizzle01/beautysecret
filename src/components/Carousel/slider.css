@@ -29,3 +29,8 @@
 .c-text {
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .c-head,
+  .c-text {
+  }
+}

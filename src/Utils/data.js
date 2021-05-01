@@ -77,19 +77,23 @@ export default {
   projects: [
     {
       tag: "MEDSPA",
-      image: "/images/spa/spa2.jpg",
+      image: "/images/medspa/medspa1.png",
     },
     {
       tag: "FACIALS",
-      image: "",
+      image: "/images/face/facial1.jpg",
+    },
+    {
+      tag: "FACIALS",
+      image: "/images/face/facial1.png",
     },
     {
       tag: "CHEMICAL PEELS",
       image: "",
     },
     {
-      tag: "MORROCAN HAMMAM",
-      image: "",
+      tag: "HAMMAM",
+      image: "/images/hammam/hammam.jpg",
     },
     {
       tag: "MASSAGE",
@@ -101,23 +105,35 @@ export default {
     },
 
     {
-      tag: "HAIR TREATMENT",
-      image: "/",
+      tag: "HAIR GALLERY",
+      image: "/images/Hairgallery/hairgallery.jpg",
     },
 
     {
       tag: "COSMETICS",
-      image: "/images/massage/massage2.jpg",
+      image: "/images/cosmetics/cosmetics.jpg",
     },
 
     {
       tag: "INTERIOR",
-      image: "",
+      image: "/images/interior/entrance.jpg",
+    },
+    {
+      tag: "INTERIOR",
+      image: "/images/interior/interior1.jpg",
+    },
+    {
+      tag: "INTERIOR",
+      image: "/images/interior/interior2.jpg",
+    },
+    {
+      tag: "INTERIOR",
+      image: "/images/interior/interior3.jpg",
     },
 
     {
       tag: "PEDICURE",
-      image: "/images/manicure/pedicure1.jpg",
+      image: "/images/pedicure/pedicure1.jpg",
     },
 
     {

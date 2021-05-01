@@ -10,7 +10,7 @@ const Post = () => {
         `*[_type == "post"]{
             title,
             slug,mainImage{ 
-                asset->{
+                asset->{    
                     _id,
                     url
                 },
@@ -24,7 +24,7 @@ const Post = () => {
 
   return (
     <>
-      <main className="bg-green-100 min-h-screen p-12">
+      <main className="bg-green-70  p-12">
         <section className="container mx-auto">
           <h1 className="text-5xl flex justify-center  cursive">Blog posts </h1>
           <h2 className="text-lg text-gray-600 flex justify-center mb-12"></h2>
@@ -32,7 +32,10 @@ const Post = () => {
             {postData &&
               postData.map((post, index) => (
                 <article>
-                  <Link to={"/post/" + postData.slug} key={postData.slug}>
+                  <Link
+                    to={"/post/" + post.slug.current}
+                    key={post.slug.current}
+                  >
                     <span
                       className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400"
                       key={index}

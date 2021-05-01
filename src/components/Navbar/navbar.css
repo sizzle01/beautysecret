@@ -16,7 +16,7 @@
 .header {
   height: 90px;
   z-index: 100;
-  background-color: white;
+  background-color: #fff !important;
 }
 
 .header .header_navlink {

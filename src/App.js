@@ -21,7 +21,7 @@ import SinglePost from "./components/Pages/Blog/SinglePost";
 import BlogPage from "./components/Pages/Blog/BlogPage";
 import Team from "./components/Slider/Slider";
 import Player from "./components/player/Player";
-import ServiceCard from "./components/serviceCard/serviceCard";
+import Teams from "./components/Team/Team";
 function App() {
   return (
     <Router>
@@ -36,7 +36,7 @@ function App() {
             <Cards />
             <Player />
             <Gallery />
-            <Team />
+            <Teams />
             <Post />
             <Breaker
               head="Get In Touch"
