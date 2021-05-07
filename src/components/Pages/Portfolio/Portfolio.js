@@ -20,18 +20,11 @@ import data from "../../../Utils/data";
 import "./portfolio.css";
 
 const Portfolio = () => {
-  const [tabValue, setTabValue] = React.useState("All");
+  const [tabValue, setTabValue] = React.useState();
   const [projectDialog, setProjectDialog] = useState(false);
 
   return (
     <Grid container spacing={1} className="section pb_45 pt_45">
-      {/**Title */}
-      <Grid item className="section_title mb_20 ">
-        <span></span>
-        <h6 className="section_title_text" variant="h6">
-          My work
-        </h6>
-      </Grid>
       {/**tabs */}
       <Grid Item xs={12}>
         <Tabs
@@ -41,8 +34,7 @@ const Portfolio = () => {
           onChange={(event, newValue) => setTabValue(newValue)}
         >
           <Tab
-            label="Services"
-            value="All"
+            /*label="Services"*/
             className={
               tabValue == "All" ? "customTabs_item active" : "customTabs_item"
             }
@@ -73,10 +65,7 @@ const Portfolio = () => {
                         title={services.title}
                       />
                       <CardContent>
-                        <Typography
-                          variant={"body2"}
-                          className="customCard_title"
-                        >
+                        <Typography variant="h5" className="customCard_title">
                           {services.title}
                         </Typography>
 
@@ -85,6 +74,96 @@ const Portfolio = () => {
                           className="customCard_caption"
                         >
                           {services.caption}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist1}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist2}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist3}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist4}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist5}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.captionlist6}
+                        </Typography>
+                        <Typography variant="h5" className="subservice-head">
+                          {services.subservicehead}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext}
+                        </Typography>
+                        <Typography variant="h5" className="subservice-head">
+                          {services.subservicehead2}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext2}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext22}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext222}
+                        </Typography>
+                        <Typography variant="h5" className="subservice-head">
+                          {services.subservicehead3}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext3}
+                        </Typography>
+                        <Typography variant="h5" className="subservice-head">
+                          {services.subservicehead4}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          className="customCard_caption"
+                        >
+                          {services.subservicetext4}
                         </Typography>
                       </CardContent>
                     </CardActionArea>
