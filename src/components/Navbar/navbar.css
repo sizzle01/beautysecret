@@ -58,5 +58,6 @@
 .header .header_right > a > .MuiSvgIcon-root:hover {
   color: var(--main-color) !important;
 }
-.navbar-collapse {
+.drop-down {
+  background-color: #fff;
 }

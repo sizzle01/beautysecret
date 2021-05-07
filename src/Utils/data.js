@@ -141,4 +141,24 @@ export default {
       image: "/images/massage/massage1.jpg",
     },
   ],
+
+  services: [
+    {
+      tag: "React",
+      image: "/images/exomas.png",
+
+      title: "project 1",
+      caption: "A short description",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+    },
+    {
+      tag: "HTML&CSS",
+      image: "/images/exomas.png",
+      title: "Digital Agency",
+      caption: "A short description",
+      description:
+        "this is my project description, please check it out and let me know if it stands the chance to compete with high tech projects",
+    },
+  ],
 };

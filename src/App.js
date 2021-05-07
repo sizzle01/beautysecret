@@ -6,7 +6,6 @@ import Nave from "./components/Navbar/Nave";
 import Header from "./components/Header/Header";
 import Slider from "./components/Carousel/Slider";
 import About from "./components/Pages/About/About";
-import Service from "./components/Pages/Service/Service";
 
 import Contact from "./components/Pages/Contact/Contact";
 import Cards from "./components/Cards/Cards";
@@ -19,7 +18,7 @@ import Breaker from "./components/Breaker/Breaker";
 import Post from "./components/Pages/Blog/Post";
 import SinglePost from "./components/Pages/Blog/SinglePost";
 import BlogPage from "./components/Pages/Blog/BlogPage";
-import Team from "./components/Slider/Slider";
+import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Player from "./components/player/Player";
 import Teams from "./components/Team/Team";
 function App() {
@@ -49,8 +48,9 @@ function App() {
             <About />
           </Route>
           <Route path="/services">
-            <Service />
+            <Portfolio />
           </Route>
+
           <Route path="/post/:slug">
             <SinglePost />
           </Route>
