@@ -22,7 +22,10 @@ const Slider = () => {
               Discover Deep Relaxation & Comfort at Beauty Secrets Medspa
             </Typography>
 
-            <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
+            <a
+              href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
+              target="_blank"
+            >
               <Button text="VISIT US" />
             </a>
           </Carousel.Caption>
@@ -40,7 +43,10 @@ const Slider = () => {
               Medspa
             </Typography>
 
-            <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
+            <a
+              href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
+              target="_blank"
+            >
               <Button text="BOOK A SESSION" />
             </a>
           </Carousel.Caption>
@@ -56,7 +62,10 @@ const Slider = () => {
             <Typography variant="h4" className="c-text">
               Serene atmosphere that massages your delight
             </Typography>
-            <a href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4">
+            <a
+              href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
+              target="_blank"
+            >
               <Button text="BOOK A SESSION" />
             </a>
           </Carousel.Caption>

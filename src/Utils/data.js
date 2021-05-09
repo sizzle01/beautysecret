@@ -176,6 +176,7 @@ export default {
       subservicetext4:
         "This is a soothing treatment that involves a minimally invasive method to stimulate nerves on the skin surface and influence tissues, glands, and organs of the body. It also stimulates immune system, promoting circulation to the area, modulating pain, anxiety, depression, hypertension, insomnia, migraines, strokes, chronic pains often in the neck, back, knees and head. We offer acupuncture and cupping therapy. ",
       description: "",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "SPA SERVICES",
@@ -203,6 +204,7 @@ export default {
       subservicehead3: "EYEBROW TINTING, THREADING & EYELASH EXTENSIONS",
       subservicetext3:
         "Eyebrow tinting makes your brows stand out as they will look darker, show a full brow volume and We have a variety of sizes of eyelash extensions that can be combined to create any look from subtle and natural to trendy and glamorous. Each lash application is a work of art with an intricate finish as each eyelash extension is meticulously applied lash-by-lash and bonded with the best adhesive on the market. It is very long-lasting and the transformation is incredible.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "SALON SERVICES",
@@ -211,6 +213,7 @@ export default {
       title: "OUR HAIR SALON",
       caption:
         "At Beauty Secret Salon we avidly care about our hair services, we offer our clients the very best in hair care products as it relates to their hair veracity.Our highly trained staff and expert level stylists all continue to receive exercise to ensure that they are up to date in the latest trends and techniques. We welcome you to a remarkable experience at Beauty Secret Salon.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "HAIR GALLERY",
@@ -219,6 +222,7 @@ export default {
       subservicehead2: "HAIR GALLERY",
       subservicetext2:
         "Massage is the kneading of superficial and deeper layers of muscle and connective tissue, using various techniques to enhance function, aid in the healing process, and promote relaxation and well-being. We offer intercontinental Massage therapy sessions and our sessions are structured to give you the best experience and leave you feeling revitalized. We offer Swedish, Anti-Stress, Deep Tissue, Aromatherapy, Prenatal, Reflexology, Scalp and Hot Stone massage.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "COSMETIC STORE",
@@ -226,6 +230,7 @@ export default {
 
       title: "We provide a range of safe to use cosmetic products ",
       caption: "",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "MASSAGE",
@@ -257,6 +262,7 @@ export default {
       subservicehead5: "HOT STONE",
       subservicetext5:
         "Hot stone massage is a specialty massage where the therapist uses smooth, heated stones, either as an extension of their own hands, or by placing them on the body while they massage other parts of the body. The heat can be both deeply relaxing and help warm up tight muscles so the therapist can work more deeply, more quickly.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "FACIAL TREATMENT",
@@ -294,6 +300,7 @@ export default {
       subservicehead6: "WHAT CAN I EXPECT?",
       subservicetext6:
         "Most clients experience noticeable results within 2-3 treatments, from fewer wrinkles and fine lines to smoother texture and reduced breakouts.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "VITAMIN SKIN INFUSIONS",
@@ -303,6 +310,7 @@ export default {
 
       caption:
         " BENEFITS: Vitamin injections allow your body to utilize 100% of the nutrients since they are administered directly into your bloodstream, it helps to maintain skin grid texture, give radiant and even-tone skin.We offer Glutathione injections, Flawless Skin, Detox programs, collagen and l-ascorbic injections…",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "LASER TREATMENTS",
@@ -322,6 +330,7 @@ export default {
       subservicehead3: "Pain Management (Acupuncture & Cupping therapy)",
       subservicetext3:
         " This is a soothing treatment that involves a minimally invasive method to stimulate nerves on the skin surface and influence tissues, glands, and organs of the body. It also stimulates the immune system, promoting circulation to the area, modulating pain, anxiety, depression, hypertension, insomnia, migraines, strokes, chronic pains often in the neck, back, knees and head. We also offer acupuncture and cupping massage.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "WAXING",
@@ -332,6 +341,7 @@ export default {
       subservicehead: "Laser Hair Removal",
       subservicetext:
         "We offer waxing services which are hair removal from the follicle by using advanced waxing methods. We offer 1/2 Leg, 3/4 Leg, Full Leg, Bikini, Brazilian, Underarm, Half Arm, Full Arm, Chest, Lip, Chin, Abdomen, Back and Eye Brows waxing. This waxing method is smooth and very beneficial to people who have sensitive skin.",
+      link: " click here to learn more about all services and price...",
     },
     {
       tag: "MOROCCAN HAMMAM",
@@ -340,6 +350,7 @@ export default {
       title: "Turkish bath",
       caption:
         "A hammam, also known as a Turkish bath, is a form of steam bath or a public bathing facility associated with Islam. It is a popular characteristic of Muslim culture, and it was derived from the Roman thermae model combined with Central Asian steam bath culture.",
+      link: " click here to learn more about all services and price...",
       subservicehead: "",
       subservicetext: "",
     },

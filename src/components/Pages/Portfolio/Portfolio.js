@@ -198,6 +198,14 @@ const Portfolio = () => {
                           >
                             {services.subservicetext6}
                           </Typography>
+                          <Typography variant="h6" className="service-link">
+                            <a
+                              href="https://beautysecretskincarespa.com/"
+                              target="_blank"
+                            >
+                              {services.link}
+                            </a>
+                          </Typography>
                         </CardContent>
                       </CardActionArea>
                     </Card>

@@ -39,7 +39,10 @@
 .customTabs .active {
   color: var(--main-color) !important;
 }
-
+.service-link a {
+  margin-top: 25px !important;
+  color: var(--main-color);
+}
 /* End Tabs style*/
 /*Cards style*/
 .customCard {
