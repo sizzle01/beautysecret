@@ -206,7 +206,7 @@ export default {
     },
     {
       tag: "SALON SERVICES",
-      image: "/images/hairgallery/hairgallery.jpg",
+      image: "/images/salon/salonservice.jpg",
 
       title: "OUR HAIR SALON",
       caption:
@@ -340,7 +340,7 @@ export default {
       title: "Turkish bath",
       caption:
         "A hammam, also known as a Turkish bath, is a form of steam bath or a public bathing facility associated with Islam. It is a popular characteristic of Muslim culture, and it was derived from the Roman thermae model combined with Central Asian steam bath culture.",
-      subservicehead: "Laser Hair Removal",
+      subservicehead: "",
       subservicetext: "",
     },
   ],
