@@ -1,23 +1,37 @@
 .projbox {
 }
-.eachcard {
-  width: 300px !important;
-  margin-top: 100px;
-  padding-right: 50px;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh !important;
+  background-size: cover;
+  background-position: center;
 }
 
+.service-intro {
+  width: 60vw !important;
+  text-align: center;
+  margin: 50px auto;
+}
 /* Tabs*/
 
-.customTabs .customTabs_item {
+.customTab .customTab_item {
   padding: 0px !important;
   min-width: 0px !important;
   margin-right: 20px !important;
   text-transform: inherit !important;
-  font-size: 14px !important;
+  font-size: 20px !important;
   font-weight: 400 !important;
   outline-width: 0px !important;
-  margin: 0 auto !important;
-  margin-bottom: 15vh !important;
+  margin: 20px auto !important;
+  color: black !important;
+  padding: 50px !important;
+  border: 1px solid var(--main-color) !important;
+  transition: 0.5s;
+}
+.customTab .customTab_item:hover {
+  background-color: rgb(172, 231, 172);
 }
 .service-wrapper {
   margin: 0 auto !important;
@@ -25,27 +39,43 @@
 .customTabs .active {
   color: var(--main-color) !important;
 }
+
 /* End Tabs style*/
 /*Cards style*/
 .customCard {
-  height: 100%;
-  max-width: 350px;
+  width: 90% !important;
   box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
   border-radius: 5px;
   overflow: hidden;
   outline-width: 0px !important;
   margin-right: 15px;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
 }
 
 .customCard .customCard_image {
-  height: 300px;
+  height: 60vh !important;
 }
 .customCard .customCard_title {
   font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px !important ;
 }
 .customCard .customCard_caption {
-  color: gray !important;
+  color: black !important;
   font-weight: 400;
+}
+.customCard_caption {
+  font-size: 16px !important;
+  text-align: center;
+  margin: 10px 0 !important;
+}
+.subservice-head {
+  font-size: 19px !important;
+  text-align: center;
+  margin: 10px 0 !important;
+  color: var(--main-color);
+  font-weight: 550 !important;
 }
 /*End of Cards style*/
 
