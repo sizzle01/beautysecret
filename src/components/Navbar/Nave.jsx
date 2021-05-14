@@ -35,15 +35,35 @@ function Nave(props) {
             className={pathName == "/" ? "header_link_active" : "header_link"}
           ></Nav.Link>
 
-          <Nav.Link
-            as={NavLink}
-            to="/about"
-            className={
-              pathName == "/about" ? "header_link_active" : "header_link"
-            }
+          <NavDropdown
+            title="ABOUT"
+            id="basic-nav-dropdown"
+            className="about-dropdown"
           >
-            ABOUT
-          </Nav.Link>
+            <NavDropdown.Item
+              id="drop-item"
+              as={NavLink}
+              to="/about"
+              className={pathName == "/" ? "header_link_active" : "header_link"}
+            >
+              ABOUT US
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              href="#action/3.2"
+              id="drop-item"
+              as={NavLink}
+              to="/about"
+              className={pathName == "/" ? "header_link_active" : "header_link"}
+            >
+              OUR MISSION AND VISION
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3" id="drop-item">
+              OUR TEAM
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3" id="drop-item">
+              TESTIMONIALS
+            </NavDropdown.Item>
+          </NavDropdown>
 
           <Nav.Link
             as={NavLink}
@@ -90,15 +110,24 @@ function Nave(props) {
           >
             CONTACT
           </Nav.Link>
-          {/*<Nav.Link
-              as={NavLink}
-              to="/contact"
-              className={
-                pathName == "/contact" ? "header_link_active" : "header_link"
-              }
+          {
+            <a
+              href="https://store.beautysecretskincarespa.com/"
+              target="_blank"
+              className="shop-link"
             >
               SHOP
-            </Nav.Link>*/}
+            </a>
+          }
+          {
+            <a
+              href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
+              target="_blank"
+              className="shop-link"
+            >
+              APPOINTMENT
+            </a>
+          }
         </Nav>
 
         <div className="header_right">
