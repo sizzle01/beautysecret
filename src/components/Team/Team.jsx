@@ -65,8 +65,8 @@ const Team = () => {
                 </a>
               </ul>
             </div>
-            <h2> Mrs. Jennifer</h2>
-            <h3>General Manager</h3>
+            <h2>Dr. Ivy Ilonzo </h2>
+            <h3>Dermatologist</h3>
           </div>
           <div className="col-md-4 profile text-center">
             <div className="img-box">
