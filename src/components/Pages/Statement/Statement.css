@@ -1,0 +1,17 @@
+.tile {
+  background: var(--bg-color) !important;
+}
+.tile-text {
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+.tile-text2 {
+  border-bottom: 5px solid #fff;
+}
+.statement {
+  margin-top: 40px !important;
+}

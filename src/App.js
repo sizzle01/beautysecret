@@ -21,6 +21,9 @@ import BlogPage from "./components/Pages/Blog/BlogPage";
 import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Player from "./components/player/Player";
 import Teams from "./components/Team/Team";
+import Statement from "./components/Pages/Statement/Statement";
+import OurTeam from "./components/Pages/OurTeam/OurTeam";
+import Testimonials from "./components/Pages/Testimonials/Testimonials";
 function App() {
   return (
     <Router>
@@ -46,6 +49,16 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+
+          <Route path="/statement">
+            <Statement />
+          </Route>
+          <Route path="/team">
+            <OurTeam />
+          </Route>
+          <Route path="/testimonials">
+            <Testimonials />
           </Route>
           <Route path="/services">
             <Portfolio />

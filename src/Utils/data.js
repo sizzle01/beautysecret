@@ -12,29 +12,25 @@ export default {
       image: "/images/news/news1.jpg",
       date: "2/4/2021",
       title: "New trend look",
-      text:
-        "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
+      text: "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
     },
     {
       image: "/images/news/news1.jpg",
       date: "2/4/2021",
       title: "New trend look",
-      text:
-        "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
+      text: "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
     },
     {
       image: "/images/news/news1.jpg",
       date: "2/4/2021",
       title: "New trend look",
-      text:
-        "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
+      text: "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
     },
     {
       image: "/images/news/news1.jpg",
       date: "2/4/2021",
       title: "New trend look",
-      text:
-        "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
+      text: "we post legit and current news. you can follow us instagram, Facebook, twitter for more news and updates in real time",
     },
   ],
   payment: [
@@ -47,7 +43,7 @@ export default {
 
   socials: {
     Instagram: {
-      link: "https://www.instagram.com/beautysecretskincare/",
+      link: "https://www.instagram.com/p/COzVsX2FHVH/?igshid=nx3xo784se0d",
       text: "",
       icon: <InstagramIcon />,
     },
@@ -68,7 +64,7 @@ export default {
     },
 
     Shop: {
-      link: "",
+      link: "https://store.beautysecretskincarespa.com/cart/",
       text: "",
       icon: <AddShoppingCartIcon />,
     },
@@ -215,23 +211,7 @@ export default {
         "At Beauty Secret Salon we avidly care about our hair services, we offer our clients the very best in hair care products as it relates to their hair veracity.Our highly trained staff and expert level stylists all continue to receive exercise to ensure that they are up to date in the latest trends and techniques. We welcome you to a remarkable experience at Beauty Secret Salon.",
       link: " click here to learn more about all services and price...",
     },
-    {
-      tag: "HAIR GALLERY",
-      image: "/images/hairgallery/hairgallery.jpg",
 
-      subservicehead2: "HAIR GALLERY",
-      subservicetext2:
-        "Massage is the kneading of superficial and deeper layers of muscle and connective tissue, using various techniques to enhance function, aid in the healing process, and promote relaxation and well-being. We offer intercontinental Massage therapy sessions and our sessions are structured to give you the best experience and leave you feeling revitalized. We offer Swedish, Anti-Stress, Deep Tissue, Aromatherapy, Prenatal, Reflexology, Scalp and Hot Stone massage.",
-      link: " click here to learn more about all services and price...",
-    },
-    {
-      tag: "COSMETIC STORE",
-      image: "/images/cosmetics/cosmetics.jpg",
-
-      title: "We provide a range of safe to use cosmetic products ",
-      caption: "",
-      link: " click here to learn more about all services and price...",
-    },
     {
       tag: "MASSAGE",
       image: "/images/massage/massage3.jpg",
@@ -353,6 +333,23 @@ export default {
       link: " click here to learn more about all services and price...",
       subservicehead: "",
       subservicetext: "",
+    },
+    {
+      tag: "HAIR GALLERY",
+      image: "/images/hairgallery/hairgallery.jpg",
+
+      subservicehead2: "HAIR GALLERY",
+      subservicetext2:
+        "Massage is the kneading of superficial and deeper layers of muscle and connective tissue, using various techniques to enhance function, aid in the healing process, and promote relaxation and well-being. We offer intercontinental Massage therapy sessions and our sessions are structured to give you the best experience and leave you feeling revitalized. We offer Swedish, Anti-Stress, Deep Tissue, Aromatherapy, Prenatal, Reflexology, Scalp and Hot Stone massage.",
+      link: " click here to visit our hair gallery...",
+    },
+    {
+      tag: "COSMETIC STORE",
+      image: "/images/cosmetics/cosmetics.jpg",
+
+      title: "We provide a range of safe to use cosmetic products ",
+      caption: "",
+      link: " click here to visit our cosmetic store...",
     },
   ],
 };

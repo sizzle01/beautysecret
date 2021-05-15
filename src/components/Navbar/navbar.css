@@ -22,10 +22,12 @@
 .header .header_navlink {
   padding: 0;
 }
+
 .header .header_link {
   font-weight: 500;
   color: rgb(112, 111, 111) !important;
 }
+
 .header .header_link:hover {
   color: var(--main-color) !important;
 }
@@ -60,4 +62,30 @@
 }
 .drop-down {
   background-color: #fff;
+}
+nav .shop-link {
+  font-weight: 500;
+  color: rgb(112, 111, 111) !important;
+  margin-left: 10px !important;
+  margin-top: 7px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*About Us dropdown style*/
+.about-dropdown {
+  font-size: 17px !important;
+  font-weight: 540 !important;
+  color: rgb(112, 111, 111) !important;
+}
+.header #basic-nav-dropdown:hover {
+  color: var(--main-color) !important;
+}
+#drop-item:hover {
+  background: rgb(93, 223, 104) !important;
+}
+#drop-item {
+  background-color: #fff !important;
+  font-size: 18px !important;
 }

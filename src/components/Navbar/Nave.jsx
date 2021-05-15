@@ -52,15 +52,28 @@ function Nave(props) {
               href="#action/3.2"
               id="drop-item"
               as={NavLink}
-              to="/about"
+              to="/statement"
               className={pathName == "/" ? "header_link_active" : "header_link"}
             >
               OUR MISSION AND VISION
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3" id="drop-item">
+            <NavDropdown.Item
+              href="#action/3.3"
+              id="drop-item"
+              as={NavLink}
+              to="/team"
+              className={pathName == "/" ? "header_link_active" : "header_link"}
+            >
               OUR TEAM
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3" id="drop-item">
+
+            <NavDropdown.Item
+              href="#action/3.3"
+              id="drop-item"
+              as={NavLink}
+              to="/testimonials"
+              className={pathName == "/" ? "header_link_active" : "header_link"}
+            >
               TESTIMONIALS
             </NavDropdown.Item>
           </NavDropdown>
@@ -74,6 +87,15 @@ function Nave(props) {
           >
             SERVICES
           </Nav.Link>
+          {
+            <a
+              href="https://store.beautysecretskincarespa.com/"
+              target="_blank"
+              className="shop-link"
+            >
+              BLOG
+            </a>
+          }
           {/*<Nav.Link
               as={NavLink}
               to="/post"
@@ -92,15 +114,7 @@ function Nave(props) {
             >
               PRICES
             </Nav.Link>*/}
-          <Nav.Link
-            as={NavLink}
-            to="/post"
-            className={
-              pathName == "/contact" ? "header_link_active" : "header_link"
-            }
-          >
-            BLOG
-          </Nav.Link>
+
           <Nav.Link
             as={NavLink}
             to="/contact"

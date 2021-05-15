@@ -17,9 +17,11 @@ function About() {
       </div>
       <Grid item xs={12} className="history">
         <Grid container>
-          <Typography variant="h4" className="heading" justify="center">
-            BEAUTY SECRETS HISTORY
-          </Typography>
+          <Typography
+            variant="h4"
+            className="heading"
+            justify="center"
+          ></Typography>
           <Typography variant="h5" className="history-paragraph">
             Beauty Secrets is a privately owned Nigerian Company offering
             comfort and ease of access to world-class skin care and spa services

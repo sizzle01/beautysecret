@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <div className="header1">
         <Grid item justify="flex-start" className="shop-icon">
-          <a href="shop.beautysecretskincarespa.com/" target="_blank">
+          <a href="https://store.beautysecretskincarespa.com/" target="_blank">
             <img src={Shop} alt="shopicon" />
           </a>
         </Grid>

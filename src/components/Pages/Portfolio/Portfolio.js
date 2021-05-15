@@ -49,7 +49,7 @@ const Portfolio = () => {
             onChange={(event, newValue) => setTabValue(newValue)}
           >
             <Tab
-              /*label="All"*/
+              label="All"
               className={
                 tabValue == "All" ? "customTab_item active" : "customTab_item"
               }
@@ -200,7 +200,7 @@ const Portfolio = () => {
                           </Typography>
                           <Typography variant="h6" className="service-link">
                             <a
-                              href="https://beautysecretskincarespa.com/"
+                              href="https://my.setmore.com/bookingpage/5b550b07-a067-4fd2-a79c-9fd7bde90af4"
                               target="_blank"
                             >
                               {services.link}
