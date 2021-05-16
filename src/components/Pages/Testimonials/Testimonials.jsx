@@ -45,7 +45,7 @@ const Testimonials = () => {
                     soon again ~ @regina.daniels
                   </p>
                 </div>
-                <img src="images/regina.png" alt="Testimonial" />
+                <img src="images/regina.jpg" alt="Testimonial" />
                 <p className="worker_name">Regina Daniels</p>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Testimonials = () => {
                     thank you beauty secrets. ~ @mosesbliss
                   </p>
                 </div>
-                <img src="images/testimonial_img2.jpg" alt="Testimonial" />
+                <img src="images/moses.png" alt="Testimonial" />
                 <p className="worker_name">Dayo Benlaniyi</p>
               </div>
             </div>

@@ -89,7 +89,7 @@ function Nave(props) {
           </Nav.Link>
           {
             <a
-              href="https://store.beautysecretskincarespa.com/"
+              href="https://store.beautysecretskincarespa.com/blog/"
               target="_blank"
               className="shop-link"
             >

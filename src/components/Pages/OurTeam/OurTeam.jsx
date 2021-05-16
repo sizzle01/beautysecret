@@ -121,6 +121,36 @@ const OurTeam = () => {
             <h3>Team of Hairstylists</h3>
           </div>
         </div>
+        <div className="row row-cont">
+          <div className="col-md-6 profile text-center">
+            <div className="img-box">
+              <img src="images/medteam.jpg" alt="" />
+            </div>
+            <h2></h2>
+            <h3>Team of Therapists</h3>
+          </div>
+
+          <div className="col-md-6 profile text-center">
+            <div className="img-box">
+              <img
+                src="images/cosmeticteam.jpg
+              "
+                alt=""
+              />
+            </div>
+            <h2></h2>
+            <h3>Team of Hairstylists</h3>
+          </div>
+        </div>
+        <div className="row row-cont">
+          <div className="col-md-6 profile text-center">
+            <div className="img-box">
+              <img src="images/nailteam.jpg" alt="" />
+            </div>
+            <h2></h2>
+            <h3>Team of Therapists</h3>
+          </div>
+        </div>
       </section>
     </div>
   );
