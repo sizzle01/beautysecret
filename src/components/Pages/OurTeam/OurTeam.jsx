@@ -127,7 +127,7 @@ const OurTeam = () => {
               <img src="images/medteam.jpg" alt="" />
             </div>
             <h2></h2>
-            <h3>Team of Therapists</h3>
+            <h3>Med Spa team</h3>
           </div>
 
           <div className="col-md-6 profile text-center">
@@ -139,7 +139,7 @@ const OurTeam = () => {
               />
             </div>
             <h2></h2>
-            <h3>Team of Hairstylists</h3>
+            <h3>Cosmetic team</h3>
           </div>
         </div>
         <div className="row row-cont">
@@ -148,7 +148,7 @@ const OurTeam = () => {
               <img src="images/nailteam.jpg" alt="" />
             </div>
             <h2></h2>
-            <h3>Team of Therapists</h3>
+            <h3>Nails team</h3>
           </div>
         </div>
       </section>
