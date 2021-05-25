@@ -33,12 +33,12 @@ function App() {
             <Player />
             <Gallery />
             <Teams />
-
+            <Testimonials />
             <Breaker
               head="Get In Touch"
               paragraph="For all enquiries, please contact us using the form below."
             />
-            <Testimonials />
+
             <Form />
             <Footer />
           </Route>

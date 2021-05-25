@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography";
 import "./Cards.css";
 
 import Facial1 from "../../asset/images/facials/facial1.jpg";
-import Therapy1 from "../../asset/images/therapy/massage1.jpeg";
+import Therapy1 from "../../asset/images/therapy/massage1.jpg";
 import Medspa1 from "../../asset/images/Medspa/medspa2.PNG";
 import Pedicure1 from "../../asset/images/pedicure/pedicure1.jpg";
 import Cosmetics from "../../asset/images/cosmetics/cosmetics.jpg";
